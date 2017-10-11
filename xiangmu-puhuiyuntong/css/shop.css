@@ -1,0 +1,40 @@
+/*头部导航栏*/
+.header_nav{height: 38px;border-top: 1px solid #ebebeb;background: #39435a}
+.header_nav .c a{display: inline-block;height: 38px;padding: 0 24px;line-height: 38px;color: white;font-size: 14px;font-weight: 500;}
+.header_nav .c .all,.shoplist{background: #4aafe2;}
+/*头部广告*/
+.i_con1{height: 400px;margin-top: 5px;}
+.i_con1_left{width: 874px;overflow: hidden;height: 400px;position: relative;}
+.i_con1_left .auto a{float: left;height: 400px;display: block;position: absolute;z-index: 1;width: 874px;}
+.i_con1_left .auto .show_01{background: url(https://www.phyt88.com/phyt/shop/images/i-banner1.jpg) no-repeat center center;}
+.i_con1_left .auto .show_02{background: url(https://www.phyt88.com/phyt/shop/images/banner/banner03.jpg) no-repeat center center;}
+.i_con1_left ul{position: absolute;bottom: 6%;left: 52%;z-index: 90;}
+.i_con1_left ul li{width: 13px;height: 13px;border-radius:50%;float: left;margin:0 10px;background: url(https://www.phyt88.com/phyt/shop/images/ico_off.png) no-repeat;z-index: 1;}
+.i_con1_left ul .active{background: url(https://www.phyt88.com/phyt/shop/images/ico_on.png) no-repeat;z-index: 9;}
+.i_con1_right{width: 296px;background: #fafafa;margin-top: 10px;}
+.right_top{padding-top: 30px;text-align: center;height: 200px;}
+.right_top p a{display: inline-block;background: #4aafe2;color: #fff;margin-right: 10px;border-radius: 5px;margin-top: 10px;}
+.right_top .login{padding: 10px 40px;margin-left: 20px;}
+.right_top .enroll{padding: 10px 30px;background: #ffb308;}
+.right_bottom{height: 116px;width: 296px;margin-top: 35px;}
+/*商品导航栏*/
+.shop_nav{margin-top: 15px;height: 145px;}
+.shop_nav ul li{float: left;margin-left: 25px;}
+/*商品列表*/
+.shop_list ul li{;width: 19.49%;border: 1px solid #e9e9e9;text-align: center;padding-bottom: 45px;float: left;margin:30px 2px 2px;padding-top: 30px;height: 320px;}
+.shop_list ul li h6{color: #333;font-size: 14px;height: 57px;}
+.shop_list ul li p{line-height: 2em;font-size: 14px;}
+.shop_list ul li p strong{padding-left: 15px;color:#db2626;font-size: 20px;}
+.shop_list ul li p s{text-decoration: line-through;}
+.shop_list ul li button{color: #fff;background: #4aafe2;box-shadow:0 4px 4px #b1aaaa ;border-radius: 3px;font-size: 18px;display: inline-block;padding: 8px 50px;margin-top: 10px;cursor: pointer;}
+.shop_list ul li img{transition: all 0.3s;-webkit-transition:all 0.3s;-moz-transition: all 0.3s;-ms-transition: all 0.3s;-o-transition: all 0.3s;}
+.shop_list ul li .w img:hover{transform: scale(1.2,1.2);}
+.w{width: 180px;;height: 190px;overflow: hidden;}
+/*按键列表*/
+.button_list{margin: 50px auto;}
+.button_page{height: 30px;text-align: center;}
+.button_page a,.button_page span{color: #fff;background: #d3d3d3;font-size: 14px;margin: 0 3px;display: inline-block;width: 36px;height: 30px;line-height: 30px;text-align: center;border-radius: 5px;cursor: pointer;}
+.first_page,.last_page{padding: 0 10px;}
+.button_page .now_page{background: #51b2e3;}
+
+.header_bg_logo_box3 a:hover{color: #ff682c;}

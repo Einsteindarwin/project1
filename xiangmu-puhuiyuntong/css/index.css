@@ -1,0 +1,136 @@
+/*头部轮播图*/
+.banner_auto_box{width: 100%;overflow: hidden;height: 360px;position: relative;}
+.move_auto{width: 8538px;height: 360px;position: relative;}
+.move_auto a{float: left;}
+.move_auto a img{width: 100%;height: 360px;} 
+.hd{height: 35px;line-height: 35px;position: absolute;margin: -35px auto 0;width: 500px;left: 30%;}
+.hd ul{float: right;position: absolute;top: 0;}
+.hd ul li{float: left;padding: 0 25px;cursor: pointer;background: rgba(0,0,0,0.4);color: #fff;margin: 0 2px;border-radius:4px 4px 0 0;font-size: 13px;}
+.hd ul .select{background: rgba(255,104,44,0.8);}
+/*登录*/
+.login_box{background: #fff;height: 320px;margin-top: 20px;padding: 0px 25px;width: 235px;position: absolute;top:0;left:50%;margin-left: 305px;}
+.login_box_bfb{text-align: center;font-size: 18px;line-height: 50px;font-weight: bold;padding-top: 15px;}
+.login_box_log{color: #ff682c;font-size: 42px;margin-top: 20px;text-align: center;height: 55px;margin-bottom: 20px;line-height: 55px;}
+.login_btn{cursor: pointer;background: #ff682c;border-radius: 0;font-size: 14px;height: 40px;text-align: center;color: #fbfbfb;width: 235px;margin-top: 10px;}
+.login_box_p3{text-align: center;color: #b6b6b6;margin-top: 20px;}
+.login_notice{width: 285px;position: absolute;top:0;left:50%;line-height: 50px;height: 50px;text-align: center;background: #f2f2f2;margin-left: 305px;top: 290px;}
+/*实时数据*/
+.time_box{background: #f2f2f2;height: 85px;text-align: center;padding-top: 35px;padding-bottom: 30px;}
+.time_box ul li{float: left;width: 293px;height: 46px;}
+.countup{font-size: 22px;color: #ff682c;}
+.time_box ul li p{font-size: 12px;color: #666666;margin-top: 3px;}
+.time_box ul li:nth-child(odd){height: 28px;width: 1px;background: #dedede;}
+
+
+/*主要内容的导航栏*/
+.content1_new{background: #fff;padding: 50px 0 35px}
+.content1_new ul li{width: 25%;height: 80px;float: left;}
+.content1_new ul li img{float: left;margin: 0 20px;}
+.content1_new ul li h4{font-size: 20px;color: #333;font-weight: normal;padding-top: 15px;}
+.content1_new ul li p{font-size: 12px;color: #999999;margin-top: 6px;}
+.content1_new .index_ad li{width: 33.333%;height: 148px;}
+.content1_new .index_ad li a{display:block;width: 380px;height: 140px;margin: 0 0 8px 8px;overflow: hidden;position: relative;}
+.content1_new .index_ad li a img{margin: 0;transition: all 1s;-webkit-transition:all 1s;-moz-transition: all 1s;-ms-transition: all 1s;-o-transition: all 1s;position: absolute;top: 0;left: 0;}
+.turnbig:hover{transform: scale(1.1,1.1);}
+.index_menu li a img{transition:all 0.4s}
+.index_menu li a img:hover{transform: rotate(360deg);}
+.index_menu li:nth-child(4) a img:hover{transform: none;}
+/*主要内容的新手理财*/
+.content_main{background: #ebebeb;overflow: hidden;padding-bottom: 40px;}
+.content_main_new{height: 252px;margin-top: 30px;}
+.main_new_ad{width: 264px;height: 252px;overflow: hidden;position: relative;}
+.tjzq_left_img{position: absolute; z-index: 2000; width: 100%;height: 100%;text-align: center;top: 0;color: #fff;}
+.tjzq_left_img h2{font-size: 36px;margin-top: 55px;line-height: 47px;}
+.tjzq_left_img .num1{color: #e1e1e1;margin-top: 6px;margin-bottom: 60px}
+.tjzq_left_img .num2 span{background: #ff682c;padding: 6px 28px;color: #fff;margin: 0 3px;}
+.target_left{height: 252px;position: relative;background: #fff;width: 457px;}
+.target_left a{font-size: 16px;margin: 40px 0 35px 35px;display: block;}
+.target_left a small{font-size: 13px;color: #b6b6b6;}
+.target_left_content{margin-left: 35px;}
+.target_left_content ul li{float: left;width: 150px;}
+.target_left_content font,small{color: #ff682c;}
+.target_left_content font{font-size: 30px;}
+.target_left_content small{font-size: 18px;}
+.target_left_content p{font-size: 13px;color: #b6b6b6;line-height: 13px}
+.con1{margin-top: 15px;}
+.target_left_content .con1 div{width: 150px;height: 5px;border-radius: 3px;background: #dbe1e6;}
+.target_left_content .con1 div p{width: 6.5%;height: 5px;border-radius: 3px;background-color: #9bbef9;}
+.special{cursor: pointer;background: #ff682c;font-size: 14px;color: #fff;height: 35px;line-height: 35px;border-radius: 4px;width: 125px;display: inline-block;text-align: center;}
+.position{position: absolute;right: 0;z-index: 9999;}
+.target_left .span_right{color: #729feb;font-size: 13px;border: 1px solid #dddddd;padding: 5px 10px;margin-left: 8px;}
+/*主要内容的投资专区*/
+.content_main_new1{margin-top: 40px;height: 563px}
+.main_new_menu_box{width: 264px;height: 563px;background: url(https://www.phyt88.com/phyt/images/0323/index/content3_left_bg.jpg) no-repeat;text-align: center;}
+.main_new_menu_box p{font-size: 36px;font-weight: normal;color: #fff;padding-top: 60px;height: 47px;}
+.main_new_menu_box ul li{width: 38%;margin-left: 54%;text-align: left;border: 1px solid #ffe4dd;color: #fff;margin-top: 10px;padding: 8px 0;cursor: pointer;font-size: 16px;padding-left: 20px;}
+.main_new_menu_box ul li.selected{background: #ffe4dd;color: #ff4a1a;;}
+.main_new_menu_box ul li.move{background: #ffe4dd;color: #ff4a1a;;}
+.main_new_menu_box ul li span{font-size: 12px;background: #ffe0d3;color: #ff682c;border-radius: 50%;padding: 1px 5px;margin-left: 20px;}
+.menu_list_box{display: none;}
+.menu_list_box ul .first_num{opacity: 1;width: 916px;height: 99px;border-bottom: 1px solid #f2f2f2;background: white;}
+.menu_list_box ul li ul{padding: 12px 0 12px 30px;}
+.menu_list_box ul li ul li{float: left;}
+.menu_list_box ul li ul .first_num_one a h4{width: 250px;font-size: 16px;color: #333;margin-bottom: 10px;font-weight: normal;padding-top: 15px;}
+.menu_list_box .icon_first{border: 1px solid #ff682c;background: #ff682c;color: #fff;margin-right: 8px;font-size: 12px;padding: 1px 6px;border-radius: 2px;}
+.menu_list_box .first_num ul .first_num_two p{width: 170px;font-size: 30px;padding-top: 22px;color: #ff682c;padding-bottom: 5px;}
+.menu_list_box .first_num ul .first_num_two span{font-size: 13px;color: #999;}
+.menu_list_box .first_num ul .first_num_three p{width: 140px;padding-top: 20px;font-size: 30px;}
+.menu_list_box .first_num ul .first_num_four{padding-left: 10px;width: 160px;}
+canvas{display: inline-block;vertical-align: baseline;}
+.menu_list_box .first_num ul .first_num_five p{font-size: 30px;padding-top: 8px;}
+.menu_list_box .first_num ul .first_num_five p span{font-size: 14px;color: #fff;background: #ff682c;width: 125px;height: 35px;line-height: 35px;text-align: center;display: inline-block;border-radius: 4px;margin-top: 15px;margin-left: 11px;}
+.menu_list_ad{padding-top: 23px;background: white;width: 916px;}
+.menu_list_ad div{margin-left: 12px;overflow: hidden;}
+.menu_list_ad div a img{margin: 0;transition: all 1s;-webkit-transition:all 1s;-moz-transition: all 1s;-ms-transition: all 1s;-o-transition: all 1s;}
+/*主要内容的视频中心*/
+.content_video{height: 415px;}
+.content_video_left{width: 336px;}
+.content_video_left h2{margin: 35px 0 25px;font-size: 18px;}
+.content_video_left h2 small{font-size: 13px;color: #999;}
+.content_video_left a h4{text-align: center;font-size: 16px;color: #333333;margin-top:20px ;}
+.content_video_left p{margin-top: 10px;}
+.content_video_img{transition: all 1s;-webkit-transition:all 1s;-moz-transition: all 1s;-ms-transition: all 1s;-o-transition: all 1s;}
+.content_video_play{position: absolute;top: 40%;left: 42%;}
+.content_video_right{width: 844px;}
+.content_video_right h2{font-size: 18px;margin: 35px 0 25px 24px;height: 20px;}
+.content_video_right ul li div{height: 150px;width: 257px; overflow: hidden;}
+.content_video_right ul li div img{height: 150px;width: 257px; transition: all 1s;-webkit-transition:all 1s;-moz-transition: all 1s;-ms-transition: all 1s;-o-transition: all 1s;}
+.content_video_right ul li{float: left;width: 257px;margin-left: 24px;}
+.content_video_right ul li h4{font-weight: normal;font-size: 16px;color: #333;margin-top: 20px;margin-bottom: 5px;}
+.content_video_right ul li p{font-size: 12px;color: #999;border-top: 1px solid #ddd;margin-top: 10px;padding-top: 6px;line-height: 1.8em;}
+/*创始团队*/
+.content_termmate{background: url(https://www.phyt88.com/phyt/images/0323/index/con5_bg.jpg) no-repeat center center fixed;height: 509px;}
+.content_termmate_title h2{height: 37px;;text-align: center;color: #fff;border-bottom: 1px solid #636568;padding-bottom: 10px;font-weight: normal;font-size: 28px;padding-top: 40px;line-height: 37px;}
+.content_termmate_title h2 span{border-bottom: 3px solid #fff;padding-bottom: 12px;font-size: 28px;}
+.content_termmate ul li{float: left;width: 277px;text-align: center;margin-left: 24px;position: relative;}
+.content_termmate_content{background: #fff;padding-bottom: 40px;position: relative;overflow: hidden;}
+.content_termmate_content h4{margin-top: 30px;font-size: 24px;line-height: 32px;}
+.content_termmate_content p{margin-top: 6px;}
+.content_termmate_inc{width: 100%;height: 100%;position: absolute;left: 0;top: 40px;background: rgba(0,0,0,0.7);text-align: left;opacity: 0;cursor: pointer;filter: alpha(opacity=0);}
+.content_termmate_inc p{color: #fff;padding-left: 60px;padding-right: 35px;line-height: 1.8em;margin-top: 6px;font-size: 14px;}
+.content_termmate_inc .first_p{margin-top: 30px;}
+
+/*底部广告轮播*/
+.content_bottom_banner{background: #ebebeb;}
+.content_bottom_banner_title{margin-bottom: 30px;text-align: center;}
+.content_bottom_banner_title h2{border-bottom: 1px solid #dddddd;padding-bottom: 10px;padding-top: 40px;}
+.content_bottom_banner_title h2 span{font-weight: normal;font-size: 28px;color: #333;border-bottom: 3px solid #333;padding-bottom: 6px;}
+.bottom_banner_box{position: relative;height: 247px;overflow: hidden;}
+.bottom_banner{position: absolute;height: 272px;width: 3024px;}
+.bottom_banner ul li{float: left;}
+.bottom_banner ul li a{display: block;}
+.bottom_banner ul li a img{margin: 25px 13px;}
+.bottom_banner_content_box input{position: absolute;cursor: pointer;}
+.left{background: url(https://www.phyt88.com/phyt/images/0323/index/left.png) no-repeat;width: 29px;height: 53px;top:109px;left: 88px;}
+.right{background: url(https://www.phyt88.com/phyt/images/0323/index/right.png) no-repeat;width: 29px;height: 53px;top: 109px;right: 88px;}
+/*底部广告分栏*/
+.b{position: fixed;bottom: 5%;z-index: 99998;display: block;cursor: pointer;left:40px}
+.b_close{position: relative;top:-50px;left:-10px}
+.cls_bg{display: none;position: fixed;background: rgba(0,0,0,0.6);width: 100%;height: 100%;left: 0;top: 0;z-index: 9999998;}
+.cls_bg_content{width: 636px;height: 364px;border-radius: 8px;background: white;border:2px solid #ff6133;position: absolute;left:30%;top: 25%;}
+.cls_bg_content h4{text-align: center;font-size: 30px;font-weight: bold;color: #ff6133;margin: 25px;border-bottom: 1px solid #ccc;padding-bottom: 20px;height: 40px;line-height: 40px;}
+.cls_bg_content p{margin: 0 25px;color: #666;line-height: 1.8em;text-indent: 2em;font-size: 14px;}
+.choose_true{line-height: 34px;margin: 20px;border-top: 1px solid #ccc;padding-top: 25px;color: #666;}
+.cls_close{position: absolute;top: 5px;right: 5px;}
+.index_right{position: fixed;bottom:5%;right:40px}
+.index_right img{width: 200px;}

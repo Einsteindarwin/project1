@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/chushihhua.css"/>
+		<link rel="stylesheet" type="text/css" href="css/shop.css"/>
+		<script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
+		<script type="text/javascript" src="js/slider.js"></script>
+		<script src="js/page.js"></script>
+	</head>
+	<body>
+		<a href="" id='shop'></a>
+		<div class="header">
+			<div class="header_bg clearfix"><!--头部广告栏背景-->
+				<div class="header_bg_logo c clearfix"><!--头部广告栏-->
+					<div class="header_bg_logo_box1 fl">
+						<img src="img/icon_01.png" alt="" style="margin-right: 6px;"/>
+						全国客服热线：<span>400-888-9787</span>（0755-61981788）
+					</div>
+					<div class="header_bg_logo_box2 fl">
+						<a href="javascript:;" class="change"></a>
+						<div class="hover_bg">
+							<img src="img/header_top_ewm.png" />
+						</div>
+					</div>
+					<script type="text/javascript">
+						$(function(){
+							$('.header_bg_logo_box2 a,.hover_bg').hover(function(){
+								$('.hover_bg').css('display','block');
+							},function(){
+								$('.hover_bg').css('display','none');
+							});
+							
+							$('.nav_first,.nav_second').hover(function(){
+								$('.nav_second').css('display','block');
+							},function(){
+								$('.nav_second').css('display','none');
+							});
+							
+							$('.nav_second a').hover(function(){
+								$(this).addClass('active').siblings('a').removeClass('active');
+							});
+							
+							$('.footer a').hover(function(){
+								$(this).css('text-decoration','underline');
+							},function(){
+								$(this).css('text-decoration','none');
+							});
+							
+							$(function(){//顶部导航栏
+								$(window).scroll(function(){
+									var scrollTop=$(window).scrollTop();
+									if(scrollTop>=100){
+										$('#logo_box').css('display','block');
+									}
+									else{
+										$('#logo_box').css('display','none');
+									}
+								});
+							});
+							
+							$('.callback').click(function(){
+								var scrollTop=$('window').scrollTop();
+								$('body,html').animate({scrollTop:0},300,'linear');
+							});
+						})
+					</script>
+					<div class="header_bg_logo_box3 fr">
+						<div class="fl header_r2">
+							<a href="javascript:;" id='login' class='login'>登录</a>
+							<span>/</span>
+							<a href="enroll.html#enroll">注册</a>
+						</div>
+						<ul class="fl header_r1">
+							<li class="phone_bg"><a href="https://www.phyt88.com/phyt/action/download/index.shtml"><img src="img/icon_02.png"/>&nbsp;手机端</a></li>
+							<li><a href="javascript:;">帮助中心</a></li>
+							<li><a href="http://bbs.phyt88.com">论坛</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="header_nav"><!--头部导航栏-->
+			<div class="c">
+				<a href="https://www.phyt88.com/phyt/shop/index.shtml">首页</a>
+				<a href="shop.html#shop" class="all shoplist">所有商品</a>
+				<p class="fr">
+					<a href="index.html#index">返回官网</a>
+					<a href="">商城规则</a>
+				</p>
+				<script type="text/javascript">
+					$(function(){
+						$('.header_nav .c a').mouseenter(function(){
+							$(this).addClass('all');
+						});
+						$('.header_nav .c a').mouseout(function(){
+							$(this).removeClass('all');
+						});
+					});
+				</script>
+			</div>
+		</div>
+		<div class="content"><!--头部广告-->
+			<div class="i_con1 c clearfix">
+				<div class="i_con1_left fl" id='j_banner'>
+					<div class="auto">
+						<a href="#" class="show_01"></a>
+						<a href="#" class="show_02"></a>
+					</div>
+					<ul class="switchers">
+						<li class="active"></li>
+						<li></li>
+					</ul>
+				</div>
+				<div class="i_con1_right fr">
+					<div class="right_top">
+						<img src="img/shop/weidl.jpg" alt="" />
+						<p>
+							<a href="javascript:;" class="login" id='login1'>立即登录</a>
+							<a href="enroll.html#enroll" class="enroll">注 册</a>
+						</p>
+					</div>
+					<div class="right_bottom">
+						<a href=""><img src="img/shop/i-con1-r2-caishen.gif" alt="" /></a>
+						<a href=""><img src="img/shop/i-con1-r2-qiandai.gif" alt="" /></a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="shop_nav c"><!--商品导航栏-->
+			<ul>
+				<li style="margin-left: 0;"><a href=""><img src="img/shop/icon_1-2.jpg" alt="" onmouseout="this.src='img/shop/icon_1-2.jpg'" onmouseenter="this.src='https://www.phyt88.com/phyt/shop/images/icon_1-1.jpg'"/></a></li>
+				<li><a href=""><img src="img/shop/icon_2-2.jpg" alt=""  onmouseout="this.src='img/shop/icon_2-2.jpg'" onmouseenter="this.src='https://www.phyt88.com/phyt/shop/images/icon_2-1.jpg'"/></a></li>
+				<li><a href=""><img src="img/shop/icon_3-2.jpg" alt=""  onmouseout="this.src='img/shop/icon_3-2.jpg'" onmouseenter="this.src='https://www.phyt88.com/phyt/shop/images/icon_3-1.jpg'"/></a></li>
+				<li><a href=""><img src="img/shop/icon_4-2.jpg" alt=""  onmouseout="this.src='img/shop/icon_4-2.jpg'" onmouseenter="this.src='https://www.phyt88.com/phyt/shop/images/icon_4-1.jpg'"/></a></li>
+				<li><a href=""><img src="img/shop/icon_5-2.jpg" alt=""  onmouseout="this.src='img/shop/icon_5-2.jpg'" onmouseenter="this.src='https://www.phyt88.com/phyt/shop/images/icon_5-1.jpg'"/></a></li>
+				<li><a href=""><img src="img/shop/icon_6-2.jpg" alt=""  onmouseout="this.src='img/shop/icon_6-2.jpg'" onmouseenter="this.src='https://www.phyt88.com/phyt/shop/images/icon_6-1.jpg'"/></a></li>
+				<li><a href=""><img src="img/shop/icon_7-2.jpg" alt=""  onmouseout="this.src='img/shop/icon_7-2.jpg'" onmouseenter="this.src='https://www.phyt88.com/phyt/shop/images/icon_7-1.jpg'"/></a></li>
+			</ul>
+		</div>
+		<div class="shop_list"><!--商品列表-->
+			<div class="c clearfix" style="margin-top: 15px;">
+				<ul id="list1">
+					<li>
+						<div class="w">
+							<img src="img/shop/29.jpg"/>
+						</div>
+						<h6>博朗（BRAUN）欧乐B D16.523U 600 3D智能电动牙刷</h6>
+						<p><s>￥299</s><strong>119600</strong>积分</p>
+						<button>兑换</button>
+					</li>
+					<li>
+						<div class="w">
+							<img src="img/shop/30.jpg"/>
+						</div>
+						<h6>博朗（BRAUN）欧乐B D16.523U 600 3D智能电动牙刷</h6>
+						<p><s>￥299</s><strong>119600</strong>积分</p>
+						<button>兑换</button>
+					</li>
+					<li>
+						<div class="w">
+							<img src="img/shop/31.jpg"/>
+						</div>
+						<h6>博朗（BRAUN）欧乐B D16.523U 600 3D智能电动牙刷</h6>
+						<p><s>￥299</s><strong>119600</strong>积分</p>
+						<button>兑换</button>
+					</li>
+					<li>
+						<div class="w">
+							<img src="img/shop/32.jpg"/>
+						</div>
+						<h6>博朗（BRAUN）欧乐B D16.523U 600 3D智能电动牙刷</h6>
+						<p><s>￥299</s><strong>119600</strong>积分</p>
+						<button>兑换</button>
+					</li>
+					<li>
+						<div class="w">
+							<img src="img/shop/33.jpg"/>
+						</div>
+						<h6>博朗（BRAUN）欧乐B D16.523U 600 3D智能电动牙刷</h6>
+						<p><s>￥299</s><strong>119600</strong>积分</p>
+						<button>兑换</button>
+					</li>
+					<li>
+						<div class="w">
+							<img src="img/shop/34.jpg"/>
+						</div>
+						<h6>博朗（BRAUN）欧乐B D16.523U 600 3D智能电动牙刷</h6>
+						<p><s>￥299</s><strong>119600</strong>积分</p>
+						<button>兑换</button>
+					</li>
+					<li>
+						<div class="w">
+							<img src="img/shop/35.jpg"/>
+						</div>
+						<h6>博朗（BRAUN）欧乐B D16.523U 600 3D智能电动牙刷</h6>
+						<p><s>￥299</s><strong>119600</strong>积分</p>
+						<button>兑换</button>
+					</li>
+					<li>
+						<div class="w">
+							<img src="img/shop/36.jpg"/>
+						</div>
+						<h6>博朗（BRAUN）欧乐B D16.523U 600 3D智能电动牙刷</h6>
+						<p><s>￥299</s><strong>119600</strong>积分</p>
+						<button>兑换</button>
+					</li>
+					<li>
+						<div class="w">
+							<img src="img/shop/37.jpg"/>
+						</div>
+						<h6>博朗（BRAUN）欧乐B D16.523U 600 3D智能电动牙刷</h6>
+						<p><s>￥299</s><strong>119600</strong>积分</p>
+						<button>兑换</button>
+					</li>
+					<li>
+						<div class="w">
+							<img src="img/shop/38.jpg"/>
+						</div>
+						<h6>博朗（BRAUN）欧乐B D16.523U 600 3D智能电动牙刷</h6>
+						<p><s>￥299</s><strong>119600</strong>积分</p>
+						<button>兑换</button>
+					</li>
+					<li>
+						<div class="w">
+							<img src="img/shop/39.jpg"/>
+						</div>
+						<h6>博朗（BRAUN）欧乐B D16.523U 600 3D智能电动牙刷</h6>
+						<p><s>￥299</s><strong>119600</strong>积分</p>
+						<button>兑换</button>
+					</li>
+					<li>
+						<div class="w">
+							<img src="img/shop/40.jpg"/>
+						</div>
+						<h6>博朗（BRAUN）欧乐B D16.523U 600 3D智能电动牙刷</h6>
+						<p><s>￥299</s><strong>119600</strong>积分</p>
+						<button>兑换</button>
+					</li>
+					<li>
+						<div class="w">
+							<img src="img/shop/46.jpg"/>
+						</div>
+						<h6>博朗（BRAUN）欧乐B D16.523U 600 3D智能电动牙刷</h6>
+						<p><s>￥299</s><strong>119600</strong>积分</p>
+						<button>兑换</button>
+					</li>
+					<li>
+						<div class="w">
+							<img src="img/shop/50.jpg"/>
+						</div>
+						<h6>博朗（BRAUN）欧乐B D16.523U 600 3D智能电动牙刷</h6>
+						<p><s>￥299</s><strong>119600</strong>积分</p>
+						<button>兑换</button>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="button_list c"><!--按键列表-->
+			<p class="button_page">
+				<a href="" class="first_page">首页</a>
+				<span class="pre"><img src="img/shop/pre.png"/></span>
+				<a href="" class="now_page page_type_01">1</a>
+				<a href="" class="page_type_02">2</a>
+				<a href="" class="page_type_03">3</a>
+				<span class="more"><img src="img/shop/more.png"/></span>
+				<a href="" class="last_page">尾页</a>
+			</p>
+			<script type="text/javascript">
+				
+			</script>
+		</div>
+		<div class="footer"><!--底部-->
+			<div class="footer_header">
+				<div class="footer_header_nav_box">
+					<ul class="clearfix" style="margin-bottom: 100px;">
+		                <li class="footer_nav_li1">
+		                    <h4>关于我们</h4>
+		                    <p><a href="https://www.phyt88.com/phyt/tdzr.shtml">团队介绍</a></p>
+		                    <p><a href="https://www.phyt88.com/phyt/zzry.shtml">荣誉资质</a></p>
+		                    <p><a href="https://www.phyt88.com/phyt/hzjg.shtml">合作机构</a></p>
+		                </li>
+		                <li class="footer_p1_li1">
+		                    <h4>平台信息</h4>
+		                    <p><a href="https://www.phyt88.com/phyt/ptgg.shtml">平台公告</a></p>
+		                    <p><a href="https://www.phyt88.com/phyt/aboutus_yybg.shtml">运营报告</a></p>
+		                    <p><a href="https://www.phyt88.com/phyt/aqbz.shtml">安全保障</a></p>
+		                </li>
+		                <li class="footer_p1_li1">
+		                    <h4>自助服务</h4>
+		                    <p><a href="https://www.phyt88.com/phyt/xsbz.shtml">帮助中心</a></p>
+		                    <p><a href="#">存管专题</a></p>
+		                </li>
+		                <li class="footer_p1_li1">
+		                    <h4>产品体系</h4>
+		                    <p><a href="https://www.phyt88.com/view/vip_new.shtml">VIP特权</a></p>
+		                    <p><a href="https://www.phyt88.com/phyt/shop/index.shtml">积分商城</a></p>
+		                    <p><a href="https://www.phyt88.com/action/draw.shtml">积分抽奖</a></p>
+		                </li>
+		                <li class="footer_p1_li2">
+		                    <p>
+		                        <img src="img/ewm_gzh.jpg" alt=""><br>
+		                        <span>关注公众号</span>
+		                    </p>
+		                    <p>
+		                        <img src="img/ewm_app.jpg" alt=""><br>
+		                        <span>下载普汇云通APP</span>
+		                    </p>
+		                </li>
+		                <li class="footer_p1_li3">
+		                    <h2>400-888-9787</h2>
+		                    <p><img src="" alt="">周一到周六 9:00-22:00</p>
+		                    <div style="height: 32px;" class="clearfix">
+		                        <a href=""><img src="img/qq.png" alt="" style="float: left;"></a>
+		                        <div class="wechat_footer_img" style="float: left;margin: 0 0 0 8px;position: relative;">
+		                            <img src="img/wechat.png" alt="">
+		                            <div class="wechat_b"><img src="img/wechat_a.gif" alt="" height="100px" style="border-radius: 3px;"></div>
+		                        </div>
+		                    </div>
+		                    <p style="font-size: 13px;line-height: 1.8em;">官方QQ群：486912158</p>
+		                </li>
+            		</ul>
+            		<p class="footer_nav">友情链接：
+	                    <a target="_blank" href="http://www.wdzj.com/">网贷之家</a>
+	                    <a target="_blank" href="http://www.baofoo.com/html/index.html">宝付</a>
+	                    <a target="_blank" href="http://www.p2peye.com/">网贷天眼</a>
+	                    <a target="_blank" href="http://www.jd.com">京东</a>
+	                    <a target="_blank" href="http://www.lianlianpay.com/">连连支付</a>
+	                    <a target="_blank" href="http://www.rong360.com/">融360</a>
+	                    <a target="_blank" href="https://www.so.com">360</a>
+	                    <a target="_blank" href="http://www.sogou.com/">搜狗</a>
+	                    <a target="_blank" href="http://www.sina.com.cn/">新浪</a>
+	                    <a target="_blank" href="http://www.huashang.cn/">华商律师</a>
+	                    <a target="_blank" href="http://www.12315.com">网贷风控</a>
+	                    <a target="_blank" href="http://www.hexun.com/">和讯</a>
+	                    <a target="_blank" href="http://www.uubee.com/">有贝</a>
+	                    <span class="see_more">展开更多</span>
+	                </p>
+	                <p class="link_more" style="display: none;">
+	                    <a target="_blank" href="http://www.jrcfjt.com/">金睿财富控股集团</a>
+	                    <a target="_blank" href="http://www.2015826.com/">中原金睿（固始）高新产业园</a>
+	                    <a target="_blank" href="http://www.smm.cn/price.php?keyid=22">铅锌矿价格</a>
+	                    <a target="_blank" href="https://www.phyt88.com/zixun/">理财资讯</a>
+	                    <a target="_blank" href="http://www.wangdaidongfang.com">网贷东方</a>
+	                </p>
+				</div>
+			</div>
+			<div class="footer_bottom">
+				<div class="c" style='height: 82px;'>
+					<div class="footer_bottom_left fl">
+			            <a href="http://v.pinpaibao.com.cn/authenticate/cert/?site=www.phyt88.com&amp;at=business" target="_blank"><img src="img/icon_11.png" alt=""></a>
+			            <a href="javascript:;"><img src="img/icon_12.png" alt=""></a>
+			            <a href="https://credit.szfw.org/CX20150731010577880352.html" target="_blank"><img src="img/icon_13.png" alt=""></a>
+			            <a href="http://www.itrust.org.cn/home/index/wx_certifi/wm/1349575050.html" target="_blank"><img src="img/icon_14.png" alt=""></a>
+			            <a href=" http://szcert.ebs.org.cn/10397c3f-2817-40ca-adf8-e4e1196394df" target="_blank"><img src="img/icon_15.png" alt=""></a>
+			        </div>
+					<div class="footer_bottom_right fl">
+			            <p>隐私保护声明 　|　 服务协议　 |　粤ICP备15066174号-2　 |　使用条款及隐私保护声明　 |　附加法律信息</p>
+			            <p>Copyright © 2016 phyt88.com All Rights Reserved 深圳普汇云通资产管理有限公司 版权所有</p>
+			        </div>
+				</div>
+			</div>
+			<script type="text/javascript">
+				$(function(){
+					$('.wechat_footer_img').hover(function(){
+						$('.wechat_b').css('display','block');
+					},function(){
+						$('.wechat_b').css('display','none');
+					});
+					
+					var b=true;
+					$('.see_more').click(function(){
+						if (b) {
+							$('.link_more').css('display','block');
+							$('.footer_header').animate({'height':'273'},300,'linear');
+							b=false;
+						}else{
+							$('.link_more').css('display','none');
+							$('.footer_header').animate({'height':'241'},300,'linear');
+							b=true;
+						}
+					});
+				})
+			</script>
+		</div>
+		<div class="side_box"><!--边栏框-->
+			<ul>
+				<li><a href="javascript:;"></a><img src="" alt="" /></li>
+				<li style="background-position: -41px 0;"><a href="javascript:;"></a></li>
+				<li style="background-position: -82px 0;"><a href="javascript:;"></a></li>
+				<li style="background-position: -123px 0;"><a href="javascript:;"></a></li>
+				<li style="background-position: -164px 0;"><a href="javascript:;"></a></li>
+				<li style="background-position: -205px 0;display: none;" class='callback'><a href="javascript:;"></a></li>
+			</ul>
+			<script type="text/javascript">
+				$(function(){
+					$('.side_box ul li').hover(function(){
+						$(this).stop().animate({"background-positionY":'-41px'},200,'linear');
+					},function(){
+						$(this).stop().animate({"background-positionY":'0'},200,'linear');
+					});
+					
+					$(window).scroll(function(){
+						var scrollTop=$(window).scrollTop();
+						if(scrollTop>=100){
+							$('.callback').show();
+						}else{
+							$('.callback').hide();
+						}
+					});
+					
+					$('.callback').click(function(){
+						var scrollTop=$('window').scrollTop();
+						$('body').animate({scrollTop:0},300);
+					});
+				});
+			</script>
+		</div>
+		<div class="cls_bg1">
+			<div class="login_box_show"><!--登陆框-->
+				<h4>用户登录<span class="fr login_box_show_close"></span></h4>
+				<div class="login_box_table">
+					<form id="login_form">
+						<dl class="login_dl1">
+							<dd><input class="form_input" type="text" id="username" name="username" placeholder="用户名/手机号" label="用户名/手机号"></dd>
+						</dl>
+						<dl class="login_dl1 login_dl2" id='login_dl2'>
+							<dd><input class="form_input" id="password" type="password" name="password" placeholder="登录密码" label="登陆密码"></dd>
+						</dl>
+						<dl class="login_dl3" id="cap_control" style="display: none">
+							<dd class="login_dl3_1"><input class="ui_form_input" id="capacha" type="text" name="capacha" placeholder="验证码" label="验证码"><input type="hidden" id="login_seed" value="1503399974776"></dd>
+							<dd class="login_yzm" id="login_capacha"><img src="" width="100" height="34"></dd>
+						</dl>
+						<dd id="error_tip" class="error_tip" style="display:none;">
+							<img src="https://www.phyt88.com/phyt/images/i-touzi-show2-icon11.png" style="vertical-align: middle;margin-right: 5px;">
+							<font class="error_msg" id="error_msg"></font>
+						</dd>
+						<p class="login_zc">
+							<a href="https://www.phyt88.com/view/back_password.shtml">忘记账号/密码？</a><span><a href="enroll.html#enroll" style="color:#4aafe2;">立即注册</a></span></p>
+						<a href="enroll.html#enroll" class="detail_login btn">立即登录</a>
+					</form>
+				</div>
+			</div>
+		</div>
+		<script type="text/javascript">
+			$(function(){
+				$('.login').click(function(){
+					$('.cls_bg1').css('display','block');
+				});
+				$('.login_box_show_close').click(function(){
+					$('.cls_bg1').css('display','none');
+					$('#username').val('');
+				});
+				
+				$('#username').keyup(function(){
+					if(!/^[0-9]/.test($('#username').val())){
+						checkemail();
+					}
+					else{
+						checkphone();
+					}
+					
+				});
+				$('#password').keyup(function(){checkkey();});
+				function checkphone(){
+					var phone=/^[1][34578]\d{9}$/;
+					if(phone.test($('#username').val())){
+						$('#error_tip').find('font').html('');
+						$('#error_tip').css('display','none');
+					}
+					else{
+						$('#error_tip').css('display','block');
+						$('#error_tip').find('font').html('请填写正确的手机号码');
+					}
+				};
+				function checkemail(){
+					var email=/^\w+((-\w+)|(\.\w))*\@[A-Za-z0-9]+((\.|-)[A-Za-z0-9]+)*\.[A-Za-z0-9]+$/;
+					if(email.test($('#username').val())){
+						$('#error_tip').find('font').html('');
+						$('#error_tip').css('display','none');
+					}
+					else{
+						$('#error_tip').css('display','block');
+						$('#error_tip').find('font').html('请填写正确的邮箱地址');
+					}
+				};
+				function checkkey(){
+			        var Ep=/^[0-9A-Za-z]*[*+-/!@#$%^&(){}?<>]{6,16}$/
+			        if(Ep.test($('#password').val())){
+						$('#error_tip').find('font').html('');
+						$('#error_tip').css('display','none');
+					}
+					else{
+						$('#error_tip').css('display','block');
+						$('#error_tip').find('font').html('密码输入有误');
+					}
+			   	};
+			})
+		</script>
+	</body>
+</html>

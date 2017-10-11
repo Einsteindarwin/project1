@@ -1,0 +1,21 @@
+/*介绍导航栏*/
+.nav_menu_bg{height: 50px;background: #efefef;width: 100%;}
+.nav_menu_link a{display: inline-block;height: 50px;line-height: 50px;color: #333;font-size: 13px;padding: 0 10px;margin-right: 20px;}
+/*头部广告*/
+.top_banner{position: relative;background: url(https://www.phyt88.com/phyt/images/gsdt-banner_02.png) no-repeat center center;height: 200px;}
+.top_banner p{display: inline-block;width: 200px;height: 135px;background: url(https://www.phyt88.com/phyt/images/gsdt-banner-jt.png) bottom center no-repeat;position: absolute;left: 50%;margin-left: -100px;bottom: -21px;text-align: center;}
+/*主要内容-地图*/
+.content_map{overflow: hidden;padding: 25px 0 55px 0;height: 445px;}
+.content_box{margin-top: 45px;}
+.content_left{width: 580px;height: 400px;}
+.title{font-size: 14px;}
+.content{color: #4AAFE2;}
+#container1{height: 100%;}
+.content_right{width: 460px;margin-left: 90px;}
+.content_right h4{line-height: 50px;margin: 25px 0;font-size: 24px;color: #666;}
+.content_right p{line-height: 30px;color:#949494;font-size: 13px;}
+.content_right p span{color:#46ade1}
+
+
+
+
