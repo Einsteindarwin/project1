@@ -9,62 +9,6 @@
 		<script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
 		<script type="text/javascript" src="js/circle.js"></script>
 		<script type="text/javascript" src="js/index.js"></script>
-		<script type="text/javascript">
-			$(function() {
-				$('#login').click(function() {
-					$('.cls_bg1').css('display', 'block');
-				});
-				$('.login_box_show_close').click(function() {
-					$('.cls_bg1').css('display', 'none');
-					$('#username').val('');
-				});
-
-				$('#username').keyup(function() {
-					if(!/^[0-9]/.test($('#username').val())) {
-						checkemail();
-					} else {
-						checkphone();
-					}
-
-				});
-				$('#password').keyup(function() {
-					checkkey();
-				});
-
-				function checkphone() {
-					var phone = /^[1][34578]\d{9}$/;
-					if(phone.test($('#username').val())) {
-						$('#error_tip').find('font').html('');
-						$('#error_tip').css('display', 'none');
-					} else {
-						$('#error_tip').css('display', 'block');
-						$('#error_tip').find('font').html('请填写正确的手机号码');
-					}
-				};
-
-				function checkemail() {
-					var email = /^\w+((-\w+)|(\.\w))*\@[A-Za-z0-9]+((\.|-)[A-Za-z0-9]+)*\.[A-Za-z0-9]+$/;
-					if(email.test($('#username').val())) {
-						$('#error_tip').find('font').html('');
-						$('#error_tip').css('display', 'none');
-					} else {
-						$('#error_tip').css('display', 'block');
-						$('#error_tip').find('font').html('请填写正确的邮箱地址');
-					}
-				};
-
-				function checkkey() {
-					var Ep = /^[0-9A-Za-z]*[*+-/!@#$%^&(){}?<>]{6,16}$/
-					if(Ep.test($('#password').val())) {
-						$('#error_tip').find('font').html('');
-						$('#error_tip').css('display', 'none');
-					} else {
-						$('#error_tip').css('display', 'block');
-						$('#error_tip').find('font').html('密码输入有误');
-					}
-				};
-			})
-		</script>
 	</head>
 
 	<body>
@@ -1217,5 +1161,60 @@
 			</div>
 		</div>
 	</body>
+	<script type="text/javascript">
+			$(function() {
+				$('#login').click(function() {
+					$('.cls_bg1').css('display', 'block');
+				});
+				$('.login_box_show_close').click(function() {
+					$('.cls_bg1').css('display', 'none');
+					$('#username').val('');
+				});
 
+				$('#username').keyup(function() {
+					if(!/^[0-9]/.test($('#username').val())) {
+						checkemail();
+					} else {
+						checkphone();
+					}
+
+				});
+				$('#password').keyup(function() {
+					checkkey();
+				});
+
+				function checkphone() {
+					var phone = /^[1][34578]\d{9}$/;
+					if(phone.test($('#username').val())) {
+						$('#error_tip').find('font').html('');
+						$('#error_tip').css('display', 'none');
+					} else {
+						$('#error_tip').css('display', 'block');
+						$('#error_tip').find('font').html('请填写正确的手机号码');
+					}
+				};
+
+				function checkemail() {
+					var email = /^\w+((-\w+)|(\.\w))*\@[A-Za-z0-9]+((\.|-)[A-Za-z0-9]+)*\.[A-Za-z0-9]+$/;
+					if(email.test($('#username').val())) {
+						$('#error_tip').find('font').html('');
+						$('#error_tip').css('display', 'none');
+					} else {
+						$('#error_tip').css('display', 'block');
+						$('#error_tip').find('font').html('请填写正确的邮箱地址');
+					}
+				};
+
+				function checkkey() {
+					var Ep = /^[0-9A-Za-z]*[*+-/!@#$%^&(){}?<>]{6,16}$/
+					if(Ep.test($('#password').val())) {
+						$('#error_tip').find('font').html('');
+						$('#error_tip').css('display', 'none');
+					} else {
+						$('#error_tip').css('display', 'block');
+						$('#error_tip').find('font').html('密码输入有误');
+					}
+				};
+			})
+		</script>
 </html>
